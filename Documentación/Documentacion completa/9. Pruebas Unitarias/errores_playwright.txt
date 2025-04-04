@@ -1,0 +1,4 @@
+
+[2025-04-03 00:49:12.721738] ERROR en caso (1, 15, 'error'): Dialog.dismiss: Protocol error (Page.handleJavaScriptDialog): No dialog is showing
+
+[2025-04-03 00:49:16.684029] ERROR en caso (4, 2, 99): Esperado 99, obtenido 12

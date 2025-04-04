@@ -1,0 +1,222 @@
+{
+  "id": "a1031d27-e834-4ba8-b979-e0945871fb24",
+  "version": "2.0",
+  "name": "Sistema_de_inventario",
+  "url": "http://localhost:8000/inventario.html",
+  "tests": [{
+    "id": "4e6899f6-d79a-41d7-89a3-02e08fbaf4ea",
+    "name": "Agregar_Quitar",
+    "commands": [{
+      "id": "e94a434c-7c8f-4378-a15a-49d27b440cc6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8000/inventario.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b13f2f3-416f-452c-a7a3-486dcfa72a61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1094x1392",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ff9e0d3-0cdf-4d1b-a9b9-697479b10d44",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(3)",
+      "targets": [
+        ["css=button:nth-child(3)", "css:finder"],
+        ["xpath=//button[@onclick='agregarStock()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1ec68dc-af35-4a55-aa84-df99bbbfb623",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(3)",
+      "targets": [
+        ["css=button:nth-child(3)", "css:finder"],
+        ["xpath=//button[@onclick='agregarStock()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ea38995-c6c3-4914-bb03-cb61e100ec01",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='reducirStock()']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Quitar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a3c8736-5c0c-4110-b479-8d43e2201798",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(3)",
+      "targets": [
+        ["css=button:nth-child(3)", "css:finder"],
+        ["xpath=//button[@onclick='agregarStock()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a6019ce-a437-4ba1-9f8e-e42cfd2f1fb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(3)",
+      "targets": [
+        ["css=button:nth-child(3)", "css:finder"],
+        ["xpath=//button[@onclick='agregarStock()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b81ba1d1-fc87-4ded-a76c-b0b6ef4faa9c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=button:nth-child(3)",
+      "targets": [
+        ["css=button:nth-child(3)", "css:finder"],
+        ["xpath=//button[@onclick='agregarStock()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "457862c4-3773-4e5c-8360-ff6074a25c8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(3)",
+      "targets": [
+        ["css=button:nth-child(3)", "css:finder"],
+        ["xpath=//button[@onclick='agregarStock()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c50531d-072c-4a7d-b2db-379b93c20574",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='reducirStock()']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Quitar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53e00c18-ed5d-41e3-afa2-d86b9b4af1d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='reducirStock()']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Quitar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20cbe03e-fe80-4b87-a9a0-09b5b312ef51",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='reducirStock()']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Quitar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c73e66a-76ca-49c1-b17b-e6b02fe54b12",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(3)",
+      "targets": [
+        ["css=button:nth-child(3)", "css:finder"],
+        ["xpath=//button[@onclick='agregarStock()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70b1c0b3-044b-4541-8a7e-8acc59dfd083",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='reducirStock()']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Quitar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6928ed1-3bd8-47cd-83e2-ee630a4a59e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='reducirStock()']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Quitar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ffb7270-3603-4b0a-bb94-be18ea2fb6ec",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='reducirStock()']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Quitar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cee4418-21b3-47f3-95ac-06edd7c5433e",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='reducirStock()']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Quitar 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58648a17-5f5c-47ed-ac8d-eb72d61f8d5a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8ff14db8-254e-4725-8b39-d9880fdda1d5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8000/inventario.html"],
+  "plugins": []
+}
