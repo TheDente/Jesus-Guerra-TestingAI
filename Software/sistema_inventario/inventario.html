@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventario</title>
+</head>
+<body>
+    <h1>📦 Inventario: Mouse Inalámbrico</h1>
+    <p id="stock">Stock actual: <span id="cantidad">10</span> unidades</p>
+
+    <button onclick="agregarStock()">Agregar 1</button>
+    <button onclick="reducirStock()">Quitar 1</button>
+
+    <script>
+        let cantidad = 10;
+
+        function actualizarVista() {
+            document.getElementById("cantidad").textContent = cantidad;
+        }
+
+        function agregarStock() {
+            cantidad += 1;
+            actualizarVista();
+        }
+
+        function reducirStock() {
+            if (cantidad >= 1) {
+                cantidad -= 1;
+            } else {
+                alert("❌ No hay suficiente stock.");
+            }
+            actualizarVista();
+        }
+    </script>
+</body>
+</html>
